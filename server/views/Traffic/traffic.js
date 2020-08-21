@@ -53,7 +53,7 @@ async function getVisitors() {
     //   if (err) throw err;
     //   console.log('Saved!');
     // });
-    visitors.populate('ClickedArticles', ' Title Category Newspaper Place Clicks -_id')
+    .populate('ClickedArticles', ' Title Category Newspaper Place Clicks -_id')
     .select('SessionTime KeyWords Location Date -_id')
     console.log(visitors);
     return visitors

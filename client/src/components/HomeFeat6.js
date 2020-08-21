@@ -90,7 +90,7 @@ class HomeFeat6 extends React.Component {
 						<section id="mvp_ad_widget-6" className="mvp-side-widget mvp_ad_widget">
 							<div className="mvp-widget-ad left relative">
 								<span className="mvp-ad-label">Advertisement</span>
-								<img src="http://www.mvpthemes.com/zoxnews/wp-content/uploads/2017/07/zox300.png" alt=''/>
+								<img src="#" alt=''/>
 							</div>
 						</section>
 						<section id="mvp_tabber_widget-5" className="mvp-side-widget mvp_tabber_widget">

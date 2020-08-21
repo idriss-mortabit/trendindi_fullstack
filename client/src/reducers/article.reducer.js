@@ -73,7 +73,6 @@ const articleReducer = (state = initialState, action ) => {
             return {...state, cart: updatedCart};
         case ADD_KEYWORD_TO_CART:
             updatedCart = [...state.keywords];
-            console.log(action.payload)
             updatedItemIndex = updatedCart.findIndex(item => item.keyword === action.payload);
 
             if(updatedItemIndex < 0) {

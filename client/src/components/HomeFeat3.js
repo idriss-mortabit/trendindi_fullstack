@@ -99,7 +99,7 @@ class HomeFeat3 extends React.Component {
 						<div className="mvp-widget-feat2-side left relative">
 							<div className="mvp-widget-feat2-side-ad left relative">
 								<span className="mvp-ad-label">Advertisement</span>
-								<img src="http://www.mvpthemes.com/zoxnews/wp-content/uploads/2017/07/zox300.png" alt=''/>							
+								<img src="#" alt=''/>							
 							</div>
 							<div className="mvp-widget-feat2-side-list left relative">
 								<div className="mvp-feat1-list left relative">

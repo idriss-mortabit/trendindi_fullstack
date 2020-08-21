@@ -51,7 +51,6 @@ class App extends React.Component {
 
   componentDidMount() { 
     const start = new Date();
-    console.log(start)
     var position ={lat:0,lon:0}
     navigator.geolocation.getCurrentPosition((p)=>{
       position.lat=p.coords.latitude;

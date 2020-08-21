@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const getAllArticles = () => (dispatch) => {
     axios.get("/api/get/articles").then(response =>{
-          console.log("My api response", response.data)
+          //console.log("My api response", response.data)
           dispatch(receiveArticles(response.data))
         })
       .catch(err=> {
