@@ -13,7 +13,7 @@ mongoose.connect(uri, {
   new mongoose.Schema({
       Date:{
         type: Date,
-        default: Date.now
+        default: new Date()
     },
     Location: [{
       lat: Number,

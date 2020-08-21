@@ -18,7 +18,7 @@ app.use('*/public', express.static('public'));
 app.get('/layouts', function(req, res) {
   res.render('view');
 });
-app.use(express.static(path.join(__dirname, '../client/build/')));
+app.use(express.static(path.join(__dirname, './../client/build/')));
 
 
 app.use(express.urlencoded({ extended: false }))
@@ -56,7 +56,7 @@ app.use(function(req, res, next){
 //   res.redirect('/admin/login');
 // });
 app.use('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, './client/build/index.html'));
+  res.sendFile(path.join(__dirname, './../client/build/index.html'));
 });
 function restrict(req, res, next) {
   if (req.session.user) {
