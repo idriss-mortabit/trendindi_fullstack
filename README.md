@@ -1,6 +1,6 @@
-# Current Weather
+# trendind 
 
-Check current weather conditions for any location in the world
+Check trendind conditions for any location in the world
 
 ---
 ## Requirements
@@ -10,8 +10,8 @@ For development, you will only need Node.js and a node global package, Yarn or n
 
 ## Install
 
-    $ git clone https://github.com/idriss-mortabit/current_weather
-    $ cd current weather
+    $ git clone https://github.com/idriss-mortabit/trendindi_fullstack
+    $ cd trendind_fullstack
     $ npm install
     $ cd client
     $ npm install
