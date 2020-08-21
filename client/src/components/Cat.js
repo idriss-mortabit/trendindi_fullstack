@@ -2,7 +2,7 @@ import React from "react";
 import {addArticleToCart} from "../actions";
 import {connect} from 'react-redux';
 import CircularProgress from '@material-ui/core/CircularProgress';
-
+import {Helmet} from 'react-helmet';
 
 class Cat extends React.Component {
 	componentDidMount(){
@@ -13,6 +13,10 @@ class Cat extends React.Component {
     render() {	
         return this.props.Trendarticle !== undefined ? (
 				<div>
+					     <Helmet>
+        <title>TrendIndi - India Trending News</title>
+        <meta name="description" content="Trending News: Latest Trending in India, Buzz, Hot on Social Media, News Articles, videos, and ... , What is Trending in the World, World Trending News, Trending on Social Media." />
+      </Helmet>
 					<div className="mvp-main-body-max">
 							<div id="mvp-post-feat-img-wide" className="left relative">
 								<div id="mvp-post-feat-img" className="left relative mvp-post-feat-img-wide2" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
@@ -89,7 +93,12 @@ class Cat extends React.Component {
 							</ul>
 							</div>
 				</div>
-            ):(<div style={{marginTop:'350px', height:'700px'}}><center><CircularProgress disableShrink /></center></div>)
+            ):(<div style={{marginTop:'350px', height:'700px'}}>
+				     <Helmet>
+						<title>TrendIndi - {this.props.match.params.category}</title>
+						<meta name="description" content="Trending News: Latest Trending in India, Politics, Business, Lifestyle, Stories, Celebs... Buzz, Hot on Social Media, What is Trending in the World, India News, World Trending News, Trending on Social Media." />
+					</Helmet>
+					<center><CircularProgress disableShrink /></center></div>)
         }
 		};
 const mapStateToProps = (state, props) =>  {

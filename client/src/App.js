@@ -18,6 +18,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 import {connect} from 'react-redux';
 import axios from 'axios';
+import {Helmet} from 'react-helmet';
 
 //import "./css/amp-style.css";
 //import "./css/editor-style.css";
@@ -37,6 +38,10 @@ import "./css/media-queries.css";
 function Home() {
   return (
     <div className="App">
+      <Helmet>
+        <title>TrendIndi - India Trending News</title>
+        <meta name="description" content="TrendIndi brings you all the Trending News: Latest Trending in India, Buzz, Hot on Social Media, News Articles, videos, and ... , What is Trending in the World, World Trending News, Trending on Social Media." />
+      </Helmet>
       <HomeGeneral />
       <HomeFeat2 />
       <HomeFeat3 />
