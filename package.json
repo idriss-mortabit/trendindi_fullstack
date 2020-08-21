@@ -9,7 +9,7 @@
 	"main": "index.js",
 	"scripts": {
 		"client": "cd client && npm start",
-		"serve": "cd client && npm i && npm run build && cd ../server && npm run serverbuild",
+		"serve": "cd server && npm run serverbuild",
 		"server": "cd server && npm start",
 		"start": "concurrently -kill-others \"npm run serve\""
 	},
