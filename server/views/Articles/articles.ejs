@@ -1,0 +1,85 @@
+            
+            <%- contentFor('HeaderCss') %>
+            <!-- perticular page css -->
+              <!-- Full Calendar -->
+              <link href="public/plugins/fullcalendar/css/fullcalendar.min.css" rel="stylesheet">
+            
+            <%- contentFor('body') %>
+
+            <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="page-title-box">
+                                    <h4 class="page-title">Articles</h4>
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Trendindi</a></li>
+                                        <li class="breadcrumb-item active">Articles</li>
+                                    </ol>
+                                </div>
+                            </div>  
+                        </div>
+                        <!-- end row -->
+
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="card m-b-20">
+                                                    <div class="card-body">
+                                                        
+                
+                                                        <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                                            <thead>
+                                                            <tr>
+                                                                <th>Headline</th>
+                                                                <th>Newspaper</th>
+                                                                <th>Category</th>
+                                                                <th>Place</th>
+                                                                <th>Clicks</th>
+                                                                <th>Date</th>
+                                                                <th>Id</th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <% for (var i = 0; i < articles.length; i++ ) {  %>
+                                                                <tr>
+                                                                    <td><%=articles[i].Title %></td>
+                                                                    <td><%=articles[i].Newspaper %></td>
+                                                                    <td><%=articles[i].Category %></td>
+                                                                    <td><%=articles[i].Place %></td>
+                                                                    <td><%=articles[i].Clicks %></td>
+                                                                    <td><%=articles[i].TimeStamp %></td>
+                                                                    <td><%=articles[i]._id %></td>
+                                                                 </tr>
+                                                                 <%}%>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end col -->
+                                        </div>
+                    </div> <!-- container-fluid -->
+                </div> <!-- content -->
+
+                <%- contentFor('FooterJs') %>
+                <!--Full calendar-->
+                <script src="public/plugins/datatables/jquery.dataTables.min.js"></script>
+                <script src="public/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+    
+                <script src="public/plugins/datatables/dataTables.buttons.min.js"></script>
+                <script src="public/plugins/datatables/buttons.bootstrap4.min.js"></script>
+                <script src="public/plugins/datatables/jszip.min.js"></script>
+                <script src="public/plugins/datatables/pdfmake.min.js"></script>
+                <script src="public/plugins/datatables/vfs_fonts.js"></script>
+                <script src="public/plugins/datatables/buttons.html5.min.js"></script>
+                <script src="public/plugins/datatables/buttons.print.min.js"></script>
+                <script src="public/plugins/datatables/buttons.colVis.min.js"></script>
+                <!-- Responsive examples -->
+                <script src="public/plugins/datatables/dataTables.responsive.min.js"></script>
+                <script src="public/plugins/datatables/responsive.bootstrap4.min.js"></script>
+    
+                <!-- Datatable init js -->
+                <script src="public/assets/pages/datatables.init.js"></script>
+
+          
+          
+          

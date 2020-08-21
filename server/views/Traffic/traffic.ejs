@@ -1,0 +1,99 @@
+            
+            <%- contentFor('HeaderCss') %>
+            <!-- perticular page css -->
+              <!-- Full Calendar -->
+              <link href="public/plugins/fullcalendar/css/fullcalendar.min.css" rel="stylesheet">
+            
+            <%- contentFor('body') %>
+
+            <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="page-title-box">
+                                    <h4 class="page-title">Traffic</h4>
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">TrendIndi</a></li>
+                                        <li class="breadcrumb-item active">Traffic</li>
+                                    </ol>
+                                </div>
+                            </div>  
+                        </div>
+                        <!-- end row -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+
+                                        <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                            <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Location</th>
+                                                <th>SessionTime</th>
+                                                <th>Keywords</th>
+                                                <th>ClickedArticles</th>
+                                            </tr>
+                                            </thead>
+
+
+                                            <tbody>
+                                                <% for (var i = 0; i < traffic.length; i++ ) { %>
+                                            <tr>
+                                                <td><%=traffic[i].Date %></td>
+                                                <td>
+                                                    <%traffic[i].Location.map((l)=>{  %>
+                                                <ul>
+                                                    <li>Latitude: <strong><%=l.lat %></strong></li>
+                                                    <li>Longitude: <strong><%=l.lon %></strong></li>
+                                                </ul>
+                                                    <% }) %>
+                                                </td>
+                                                <td><%=traffic[i].SessionTime %></td>
+                                                <td>
+                                                    <ul>
+                                                        <%traffic[i].KeyWords.map((keyword)=>{ %>
+                                                            <li><%=keyword.keyword %></li>
+                                                        <% }) %>
+                                                    </ul>
+                                                </td>
+                                                <td>
+                                                      <ul>
+                                                    <%traffic[i].ClickedArticles.map((article)=>{  %>
+                                                    
+                                                        <li><%=article._id %></li> 
+                                                    
+                                                <% }) %>
+                                                      </ul>
+                                                </td>
+                                            </tr>
+                                                <% } %>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+
+                    </div> <!-- container-fluid -->
+                </div> <!-- content -->
+
+                <%- contentFor('FooterJs') %>
+                <!--Full calendar-->
+            <script src="public/plugins/datatables/jquery.dataTables.min.js"></script>
+            <script src="public/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+
+            <script src="public/plugins/datatables/dataTables.buttons.min.js"></script>
+            <script src="public/plugins/datatables/buttons.bootstrap4.min.js"></script>
+            <script src="public/plugins/datatables/jszip.min.js"></script>
+            <script src="public/plugins/datatables/pdfmake.min.js"></script>
+            <script src="public/plugins/datatables/vfs_fonts.js"></script>
+            <script src="public/plugins/datatables/buttons.html5.min.js"></script>
+            <script src="public/plugins/datatables/buttons.print.min.js"></script>
+            <script src="public/plugins/datatables/buttons.colVis.min.js"></script>
+            <!-- Responsive examples -->
+            <script src="public/plugins/datatables/dataTables.responsive.min.js"></script>
+            <script src="public/plugins/datatables/responsive.bootstrap4.min.js"></script>
+
+            <!-- Datatable init js -->
+            <script src="public/assets/pages/datatables.init.js"></script>

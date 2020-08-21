@@ -1,0 +1,1044 @@
+{
+  _id: 5f3d4fd569e0831db0dc2eec,
+  Location: [],
+  KeyWords: [],
+  ClickedArticles: []
+},{
+  _id: 5f3d501069e0831db0dc2eed,
+  Location: [],
+  KeyWords: [],
+  ClickedArticles: []
+},{
+  _id: 5f3d502f69e0831db0dc2eee,
+  Location: [],
+  KeyWords: [],
+  ClickedArticles: []
+},{
+  _id: 5f3d504569e0831db0dc2eef,
+  Location: [],
+  KeyWords: [],
+  ClickedArticles: []
+},{
+  _id: 5f3d54103d81fb261cecfe06,
+  Location: [],
+  KeyWords: [],
+  ClickedArticles: []
+},{
+  _id: 5f3d543f3d81fb261cecfe07,
+  Location: [],
+  KeyWords: [],
+  ClickedArticles: []
+},{
+  _id: 5f3d5a2f191a521488d44623,
+  Location: [ { _id: 5f3d5a2f191a521488d44624, lat: 0, lon: 0 } ],
+  SessionTime: '23.46',
+  ClickedArticles: [ { _id: 5f3ada40a72b9f2bd45c3d39 } ],
+  KeyWords: [
+    { _id: 5f3d5a2f191a521488d44626, keyword: 'business', quantity: 2 },
+    { _id: 5f3d5a2f191a521488d44627, keyword: 'tech', quantity: 1 }
+  ]
+},{
+  _id: 5f3d5abc191a521488d44628,
+  Location: [ { _id: 5f3d5abc191a521488d44629, lat: 0, lon: 0 } ],
+  SessionTime: '119.433',
+  ClickedArticles: [ { _id: 5f3ada40a72b9f2bd45c3d37 } ],
+  KeyWords: [ { _id: 5f3d5abc191a521488d4462b, keyword: 'tech', quantity: 2 } ]
+},{
+  _id: 5f3d5f09191a521488d4462c,
+  Location: [ { _id: 5f3d5f09191a521488d4462d } ],
+  SessionTime: '1595.919',
+  ClickedArticles: [ { _id: 5f3d5f09191a521488d4462e } ],
+  KeyWords: [ { _id: 5f3d5f09191a521488d4462f } ]
+},{
+  _id: 5f3d5f12191a521488d44630,
+  Location: [
+    {
+      _id: 5f3d5f12191a521488d44631,
+      lat: 32.779240699999995,
+      lon: -6.3978323999999995
+    }
+  ],
+  SessionTime: '9.424',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d5f26191a521488d44632,
+  Location: [
+    {
+      _id: 5f3d5f26191a521488d44633,
+      lat: 32.779240699999995,
+      lon: -6.3978323999999995
+    }
+  ],
+  SessionTime: '19.113',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d5f33191a521488d44634,
+  Location: [
+    { _id: 5f3d5f33191a521488d44635, lat: 32.7791905, lon: -6.3977709 }
+  ],
+  SessionTime: '13.174',
+  ClickedArticles: [],
+  KeyWords: [
+    {
+      _id: 5f3d5f33191a521488d44636,
+      keyword: 'lifestyle',
+      quantity: 2
+    },
+    { _id: 5f3d5f33191a521488d44637, keyword: 'tech', quantity: 1 },
+    {
+      _id: 5f3d5f33191a521488d44638,
+      keyword: 'entertainement',
+      quantity: 1
+    },
+    { _id: 5f3d5f33191a521488d44639, keyword: 'world', quantity: 1 }
+  ]
+},{
+  _id: 5f3d5f79191a521488d4463a,
+  Location: [
+    { _id: 5f3d5f79191a521488d4463b, lat: 32.7791905, lon: -6.3977709 }
+  ],
+  SessionTime: '69.788',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f2 } ],
+  KeyWords: []
+},{
+  _id: 5f3d608f191a521488d4463d,
+  Location: [
+    { _id: 5f3d608f191a521488d4463e, lat: 32.7791905, lon: -6.3977709 }
+  ],
+  SessionTime: '277.266',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d60c3191a521488d44640,
+  Location: [
+    { _id: 5f3d60c3191a521488d44641, lat: 32.779222, lon: -6.3978218 }
+  ],
+  SessionTime: '36.677',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3adadbdbaae11ddc6bd049 },
+    { _id: 5f3adadbdbaae11ddc6bd04d },
+    { _id: 5f3ada40a72b9f2bd45c3d39 }
+  ],
+  KeyWords: [
+    {
+      _id: 5f3d60c3191a521488d44647,
+      keyword: 'lifestyle',
+      quantity: 2
+    },
+    { _id: 5f3d60c3191a521488d44648, keyword: 'tech', quantity: 1 }
+  ]
+},{
+  _id: 5f3d63af191a521488d44649,
+  Location: [
+    {
+      _id: 5f3d63af191a521488d4464a,
+      lat: 32.779271099999995,
+      lon: -6.3978841
+    }
+  ],
+  SessionTime: '33.495',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2e6 } ],
+  KeyWords: [
+    { _id: 5f3d63af191a521488d4464c, keyword: 'tech', quantity: 2 },
+    {
+      _id: 5f3d63af191a521488d4464d,
+      keyword: 'lifestyle',
+      quantity: 1
+    }
+  ]
+},{
+  _id: 5f3d6465191a521488d4464e,
+  Location: [
+    {
+      _id: 5f3d6465191a521488d4464f,
+      lat: 32.779240699999995,
+      lon: -6.3978459999999995
+    }
+  ],
+  SessionTime: '181.319',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d6875a9c5b70a64da217b,
+  Location: [
+    { _id: 5f3d6875a9c5b70a64da217c, lat: 32.7792412, lon: -6.3978269 }
+  ],
+  SessionTime: '41.768',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2ef },
+    { _id: 5f3ad9b2394fbe0d5810a2ed }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d68a933bfd11c3ca6daf8,
+  Location: [
+    { _id: 5f3d68a933bfd11c3ca6daf9, lat: 32.7792153, lon: -6.3978452 }
+  ],
+  SessionTime: '51.386',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d68bb33bfd11c3ca6dafa,
+  Location: [
+    { _id: 5f3d68bb33bfd11c3ca6dafb, lat: 32.7792552, lon: -6.3978469 }
+  ],
+  SessionTime: '17.778',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2ef },
+    { _id: 5f3ad9b2394fbe0d5810a2ed }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d691d33bfd11c3ca6daff,
+  Location: [
+    { _id: 5f3d691d33bfd11c3ca6db00, lat: 32.7792552, lon: -6.3978469 }
+  ],
+  SessionTime: '96.913',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d692a33bfd11c3ca6db02,
+  Location: [
+    { _id: 5f3d692a33bfd11c3ca6db03, lat: 32.7792471, lon: -6.3978918 }
+  ],
+  SessionTime: '9.228',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d693d33bfd11c3ca6db04,
+  Location: [
+    {
+      _id: 5f3d693d33bfd11c3ca6db05,
+      lat: 32.7792341,
+      lon: -6.3979083999999995
+    }
+  ],
+  SessionTime: '15.916',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d6a2433bfd11c3ca6db07,
+  Location: [
+    {
+      _id: 5f3d6a2433bfd11c3ca6db08,
+      lat: 32.7792341,
+      lon: -6.3979083999999995
+    }
+  ],
+  SessionTime: '228.144',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d6a9b33bfd11c3ca6db0a,
+  Location: [
+    { _id: 5f3d6a9b33bfd11c3ca6db0b, lat: 32.7792471, lon: -6.3978918 }
+  ],
+  SessionTime: '118.938',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 },
+    { _id: 5f3ad9b2394fbe0d5810a2f0 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d6b03831ae326585e69f7,
+  Location: [
+    {
+      _id: 5f3d6b03831ae326585e69f8,
+      lat: 32.779240699999995,
+      lon: -6.3978323999999995
+    }
+  ],
+  SessionTime: '98.718',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d6b35831ae326585e69fc,
+  Location: [
+    {
+      _id: 5f3d6b35831ae326585e69fd,
+      lat: 32.7792546,
+      lon: -6.3978649999999995
+    }
+  ],
+  SessionTime: '47.382',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d6b46831ae326585e69fe,
+  Location: [
+    { _id: 5f3d6b46831ae326585e69ff, lat: 32.7792303, lon: -6.3978218 }
+  ],
+  SessionTime: '17.085',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d6b64831ae326585e6a03,
+  Location: [
+    { _id: 5f3d6b64831ae326585e6a04, lat: 32.7792303, lon: -6.3978218 }
+  ],
+  SessionTime: '29.168',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d6b6b831ae326585e6a05,
+  Location: [
+    { _id: 5f3d6b6b831ae326585e6a06, lat: 32.7792303, lon: -6.3978218 }
+  ],
+  SessionTime: '6.813',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d6babc52a230948fe36a5,
+  Location: [
+    { _id: 5f3d6babc52a230948fe36a6, lat: 32.7792303, lon: -6.3978218 }
+  ],
+  SessionTime: '63.055',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d6bb6c52a230948fe36a7,
+  Location: [
+    {
+      _id: 5f3d6bb6c52a230948fe36a8,
+      lat: 32.7792254,
+      lon: -6.397788299999999
+    }
+  ],
+  SessionTime: '10.897',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d6bc1c52a230948fe36ab,
+  Location: [
+    {
+      _id: 5f3d6bc1c52a230948fe36ac,
+      lat: 32.7791964,
+      lon: -6.3978044999999995
+    }
+  ],
+  SessionTime: '10.604',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d6ffee408c82498211cc5,
+  Location: [
+    {
+      _id: 5f3d6ffee408c82498211cc6,
+      lat: 32.7791964,
+      lon: -6.3978044999999995
+    }
+  ],
+  SessionTime: '1084.454',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d700ce408c82498211cc9,
+  Location: [
+    {
+      _id: 5f3d700ce408c82498211cca,
+      lat: 32.779232199999996,
+      lon: -6.3978391
+    }
+  ],
+  SessionTime: '13.009',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d7095652cfd1eec9438c7,
+  Location: [
+    {
+      _id: 5f3d7095652cfd1eec9438c8,
+      lat: 32.779232199999996,
+      lon: -6.3978391
+    }
+  ],
+  SessionTime: '136.797',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d70a7652cfd1eec9438cb,
+  Location: [
+    {
+      _id: 5f3d70a7652cfd1eec9438cc,
+      lat: 32.779232199999996,
+      lon: -6.3978391
+    }
+  ],
+  SessionTime: '8.353',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d710199ea31276856632b,
+  Location: [
+    {
+      _id: 5f3d710199ea31276856632c,
+      lat: 32.779232199999996,
+      lon: -6.3978391
+    }
+  ],
+  SessionTime: '90.471',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d711399ea31276856632f,
+  Location: [
+    {
+      _id: 5f3d711399ea312768566330,
+      lat: 32.7792035,
+      lon: -6.397854799999999
+    }
+  ],
+  SessionTime: '15.93',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d715599ea312768566332,
+  Location: [
+    {
+      _id: 5f3d715599ea312768566333,
+      lat: 32.7792035,
+      lon: -6.397854799999999
+    }
+  ],
+  SessionTime: '65.22',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d715b99ea312768566334,
+  Location: [
+    {
+      _id: 5f3d715b99ea312768566335,
+      lat: 32.779194499999996,
+      lon: -6.3978101999999994
+    }
+  ],
+  SessionTime: '5.335',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d719299ea312768566337,
+  Location: [
+    {
+      _id: 5f3d719299ea312768566338,
+      lat: 32.779194499999996,
+      lon: -6.3978101999999994
+    }
+  ],
+  SessionTime: '47.437',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d719e99ea31276856633a,
+  Location: [
+    { _id: 5f3d719e99ea31276856633b, lat: 32.7791917, lon: -6.3978147 }
+  ],
+  SessionTime: '11.328',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d71e699ea31276856633d,
+  Location: [
+    { _id: 5f3d71e699ea31276856633e, lat: 32.7792076, lon: -6.3978727 }
+  ],
+  SessionTime: '24.295',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7280f5c220265cd00886,
+  Location: [
+    { _id: 5f3d7280f5c220265cd00887, lat: 32.7792076, lon: -6.3978727 }
+  ],
+  SessionTime: '153.715',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d728af5c220265cd00888,
+  Location: [
+    {
+      _id: 5f3d728af5c220265cd00889,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '9.706',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7291f5c220265cd0088b,
+  Location: [
+    {
+      _id: 5f3d7291f5c220265cd0088c,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '7.311',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d731edbb02629f88eb684,
+  Location: [
+    {
+      _id: 5f3d731edbb02629f88eb685,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '140.904',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7325dbb02629f88eb687,
+  Location: [
+    { _id: 5f3d7325dbb02629f88eb688, lat: 32.7792076, lon: -6.3978727 }
+  ],
+  SessionTime: '6.419',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d736908fe0524dca8a7c2,
+  Location: [
+    { _id: 5f3d736908fe0524dca8a7c3, lat: 32.7792076, lon: -6.3978727 }
+  ],
+  SessionTime: '67.305',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d738208fe0524dca8a7c5,
+  Location: [
+    {
+      _id: 5f3d738208fe0524dca8a7c6,
+      lat: 32.779191499999996,
+      lon: -6.3978949
+    }
+  ],
+  SessionTime: '16.814',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d73e201bff2251c3a1d6d,
+  Location: [
+    {
+      _id: 5f3d73e201bff2251c3a1d6e,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '6.764',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d73e701bff2251c3a1d70,
+  Location: [
+    {
+      _id: 5f3d73e701bff2251c3a1d71,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '5.238',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d74a9539e3b19b861a60b,
+  Location: [
+    {
+      _id: 5f3d74a9539e3b19b861a60c,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '193.682',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d74b2539e3b19b861a60e,
+  Location: [
+    {
+      _id: 5f3d74b2539e3b19b861a60f,
+      lat: 32.7792368,
+      lon: -6.397819500000001
+    }
+  ],
+  SessionTime: '5.93',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d75889ce286153c108f85,
+  Location: [
+    {
+      _id: 5f3d75889ce286153c108f86,
+      lat: 32.7792368,
+      lon: -6.397819500000001
+    }
+  ],
+  SessionTime: '210.295',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d75bb8b58482328fa25da,
+  Location: [
+    {
+      _id: 5f3d75bb8b58482328fa25db,
+      lat: 32.779193299999996,
+      lon: -6.397814100000001
+    }
+  ],
+  SessionTime: '45.865',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d75f28b58482328fa25dd,
+  Location: [
+    {
+      _id: 5f3d75f28b58482328fa25de,
+      lat: 32.779193299999996,
+      lon: -6.397814100000001
+    }
+  ],
+  SessionTime: '54.381',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f1 } ],
+  KeyWords: []
+},{
+  _id: 5f3d765a40c4df2ab81c41c1,
+  Location: [
+    {
+      _id: 5f3d765a40c4df2ab81c41c2,
+      lat: 32.779232199999996,
+      lon: -6.3978391
+    }
+  ],
+  SessionTime: '103.631',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d766140c4df2ab81c41c4,
+  Location: [
+    {
+      _id: 5f3d766140c4df2ab81c41c5,
+      lat: 32.7792368,
+      lon: -6.397819500000001
+    }
+  ],
+  SessionTime: '7.492',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d76b57265af284ca9475d,
+  Location: [
+    {
+      _id: 5f3d76b57265af284ca9475e,
+      lat: 32.7792368,
+      lon: -6.397819500000001
+    }
+  ],
+  SessionTime: '66.877',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d76be7265af284ca94760,
+  Location: [
+    { _id: 5f3d76be7265af284ca94761, lat: 32.7792435, lon: -6.397863 }
+  ],
+  SessionTime: '8.534',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7855d3f98c207c240599,
+  Location: [
+    {
+      _id: 5f3d7855d3f98c207c24059a,
+      lat: 32.779232199999996,
+      lon: -6.3978391
+    }
+  ],
+  SessionTime: '216.83',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d78be2d3b222520dd1f67,
+  Location: [
+    {
+      _id: 5f3d78be2d3b222520dd1f68,
+      lat: 32.7792238,
+      lon: -6.397867799999999
+    }
+  ],
+  SessionTime: '104.319',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d78cd2d3b222520dd1f6a,
+  Location: [
+    { _id: 5f3d78cd2d3b222520dd1f6b, lat: 32.779165, lon: -6.3978439 }
+  ],
+  SessionTime: '14.262',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d791b6d439724389c3149,
+  Location: [
+    {
+      _id: 5f3d791b6d439724389c314a,
+      lat: 32.7791777,
+      lon: -6.397842799999999
+    }
+  ],
+  SessionTime: '71.231',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d79256d439724389c314c,
+  Location: [
+    {
+      _id: 5f3d79256d439724389c314d,
+      lat: 32.7792487,
+      lon: -6.3979327999999995
+    }
+  ],
+  SessionTime: '9.885',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7972d306df10c889052f,
+  Location: [
+    {
+      _id: 5f3d7972d306df10c8890530,
+      lat: 32.7792487,
+      lon: -6.3979327999999995
+    }
+  ],
+  SessionTime: '76.969',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7acf4855e40dd0ed5886,
+  Location: [
+    {
+      _id: 5f3d7acf4855e40dd0ed5887,
+      lat: 32.7791511,
+      lon: -6.397929599999999
+    }
+  ],
+  SessionTime: '348.537',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7ada4855e40dd0ed5889,
+  Location: [
+    { _id: 5f3d7ada4855e40dd0ed588a, lat: 32.7792309, lon: -6.3978383 }
+  ],
+  SessionTime: '11.021',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7be71125f92124a9ea66,
+  Location: [
+    { _id: 5f3d7be71125f92124a9ea67, lat: 32.7792309, lon: -6.3978383 }
+  ],
+  SessionTime: '263.475',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7bf21125f92124a9ea69,
+  Location: [
+    {
+      _id: 5f3d7bf21125f92124a9ea6a,
+      lat: 32.779180499999995,
+      lon: -6.3978189
+    }
+  ],
+  SessionTime: '10.219',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7c72e71e6023f43405df,
+  Location: [
+    {
+      _id: 5f3d7c72e71e6023f43405e0,
+      lat: 32.7792238,
+      lon: -6.397867799999999
+    }
+  ],
+  SessionTime: '6.304',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7ca09ff8a22840dedbb4,
+  Location: [
+    {
+      _id: 5f3d7ca09ff8a22840dedbb5,
+      lat: 32.7792238,
+      lon: -6.397867799999999
+    }
+  ],
+  SessionTime: '45.1',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7da634acbf29f0075a59,
+  Location: [
+    { _id: 5f3d7da634acbf29f0075a5a, lat: 32.7791658, lon: -6.3978353 }
+  ],
+  SessionTime: '19.988',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d7daf34acbf29f0075a5b,
+  Location: [
+    { _id: 5f3d7daf34acbf29f0075a5c, lat: 32.7791658, lon: -6.3978353 }
+  ],
+  SessionTime: '8.457',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7e1f8776362bd43fa30c,
+  Location: [
+    { _id: 5f3d7e1f8776362bd43fa30d, lat: 32.7791658, lon: -6.3978353 }
+  ],
+  SessionTime: '111.048',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7e2f8776362bd43fa30f,
+  Location: [
+    {
+      _id: 5f3d7e2f8776362bd43fa310,
+      lat: 32.779227899999995,
+      lon: -6.397837399999999
+    }
+  ],
+  SessionTime: '15.937',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7e5c49e7061ec0cba158,
+  Location: [
+    {
+      _id: 5f3d7e5c49e7061ec0cba159,
+      lat: 32.779227899999995,
+      lon: -6.397837399999999
+    }
+  ],
+  SessionTime: '31.719',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7e7449e7061ec0cba15b,
+  Location: [
+    {
+      _id: 5f3d7e7449e7061ec0cba15c,
+      lat: 32.779227899999995,
+      lon: -6.397837399999999
+    }
+  ],
+  SessionTime: '21.595',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7e7a49e7061ec0cba15e,
+  Location: [
+    {
+      _id: 5f3d7e7a49e7061ec0cba15f,
+      lat: 32.779224,
+      lon: -6.397824700000001
+    }
+  ],
+  SessionTime: '5.964',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7eba36e4140bdc08f884,
+  Location: [
+    {
+      _id: 5f3d7eba36e4140bdc08f885,
+      lat: 32.779224,
+      lon: -6.397824700000001
+    }
+  ],
+  SessionTime: '63.217',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7efa36e4140bdc08f887,
+  Location: [
+    {
+      _id: 5f3d7efa36e4140bdc08f888,
+      lat: 32.779224,
+      lon: -6.397824700000001
+    }
+  ],
+  SessionTime: '61.361',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7f6733b1540cc87ef351,
+  Location: [
+    { _id: 5f3d7f6733b1540cc87ef352, lat: 32.7792205, lon: -6.3977925 }
+  ],
+  SessionTime: '109.492',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7f8033b1540cc87ef354,
+  Location: [
+    {
+      _id: 5f3d7f8033b1540cc87ef355,
+      lat: 32.779179899999995,
+      lon: -6.3977752
+    }
+  ],
+  SessionTime: '24.237',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7f8f05249a25f8b370f6,
+  Location: [
+    {
+      _id: 5f3d7f8f05249a25f8b370f7,
+      lat: 32.779179899999995,
+      lon: -6.3977752
+    }
+  ],
+  SessionTime: '13.523',
+  ClickedArticles: [ { _id: 5f3ad9b2394fbe0d5810a2f0 } ],
+  KeyWords: []
+},{
+  _id: 5f3d7f9f05249a25f8b370f9,
+  Location: [
+    {
+      _id: 5f3d7f9f05249a25f8b370fa,
+      lat: 32.779179899999995,
+      lon: -6.3977752
+    }
+  ],
+  SessionTime: '14.317',
+  ClickedArticles: [],
+  KeyWords: []
+},{
+  _id: 5f3d7fb405249a25f8b370fb,
+  Location: [
+    {
+      _id: 5f3d7fb405249a25f8b370fc,
+      lat: 32.779179899999995,
+      lon: -6.3977752
+    }
+  ],
+  SessionTime: '20.901',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d7fc205249a25f8b370ff,
+  Location: [
+    {
+      _id: 5f3d7fc205249a25f8b37100,
+      lat: 32.779179899999995,
+      lon: -6.3977752
+    }
+  ],
+  SessionTime: '13.048',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d7fd405249a25f8b37104,
+  Location: [
+    {
+      _id: 5f3d7fd405249a25f8b37105,
+      lat: 32.779179899999995,
+      lon: -6.3977752
+    }
+  ],
+  SessionTime: '18.633',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d80ad29669829184fecfb,
+  Location: [
+    { _id: 5f3d80ad29669829184fecfc, lat: 32.7792139, lon: -6.3977987 }
+  ],
+  SessionTime: '216.051',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3d80c129669829184fed00,
+  Location: [
+    {
+      _id: 5f3d80c129669829184fed01,
+      lat: 32.779182999999996,
+      lon: -6.3977971
+    }
+  ],
+  SessionTime: '19.336',
+  ClickedArticles: [
+    { _id: 5f3ad9b2394fbe0d5810a2f0 },
+    { _id: 5f3ad9b2394fbe0d5810a2f1 },
+    { _id: 5f3ad9b2394fbe0d5810a2f2 }
+  ],
+  KeyWords: []
+},{
+  _id: 5f3db7412d817a272ccea373,
+  Location: [
+    {
+      _id: 5f3db7412d817a272ccea374,
+      lat: 32.779223699999996,
+      lon: -6.397876
+    }
+  ],
+  SessionTime: '45.763',
+  ClickedArticles: [],
+  KeyWords: []
+}
