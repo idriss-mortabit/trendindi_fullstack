@@ -2,15 +2,16 @@
 	"name": "trendindi",
 	"version": "1.0.0",
 	"engines": {
-		"node": "12.18.1"
+		"node": "12.18.1",
+		"npm": "6.14.5"
 	  },
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"client": "cd client && npm start",
-		"build": "cd client && npm i && npm run build && cd ../server && npm run serverbuild",
+		"serve": "cd client && npm i && npm run build && cd ../server && npm run serverbuild",
 		"server": "cd server && npm start",
-		"start": "concurrently -kill-others \"npm run build\""
+		"start": "concurrently -kill-others \"npm run serve\""
 	},
 	"keywords": [],
 	"author": "",
