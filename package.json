@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"client": "cd client && npm start",
-		"build": "cd client && npm run build && cd ../server && npm run serverbuild",
+		"build": "cd client && npm i && npm run build && cd ../server && npm run serverbuild",
 		"server": "cd server && npm start",
 		"start": "concurrently -kill-others \"npm run build\""
 	},
