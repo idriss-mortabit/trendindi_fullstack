@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm i && node ./bin/www"
+    "serverbuild": "npm i && node ./bin/www",
+    "start": "nodemon ./bin/www"
   },
   "author": "",
   "license": "ISC",

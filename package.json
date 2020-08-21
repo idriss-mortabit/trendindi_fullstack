@@ -5,8 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"client": "cd client && npm start",
+		"build": "cd client && npm run build && cd ../server && npm run serverbuild",
 		"server": "cd server && npm start",
-		"start": "concurrently -kill-others \"npm run server\""
+		"start": "concurrently -kill-others \"npm run build\""
 	},
 	"keywords": [],
 	"author": "",
