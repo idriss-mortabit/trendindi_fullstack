@@ -14,7 +14,7 @@ mongoose.connect(uri, {
     },
     TimeStamp:{
         type: Date,
-        default: new Date
+        default: Date.now
     },
     Category:{
         type: String,
