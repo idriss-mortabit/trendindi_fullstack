@@ -62,12 +62,46 @@ class App extends React.Component {
       position.lon=p.coords.longitude;
     }
     )
-    window.addEventListener('beforeunload', () =>{
+
+    // window.addEventListener('beforeunload', () =>{
+    //     send=false;
+    //     const end = new Date();
+    //     const diffTime = end - start
+    //     let data={
+    //       Browser: navigator.appName,
+    //       Platform: navigator.platform,
+    //       Location: [position],
+    //       SessionTime:diffTime/1000,
+    //       KeyWords: this.props.keywords,
+    //       ClickedArticles: this.props.cart
+    //   }
+    //   console.log(data)
+    //   axios.post('/api/get/data', {
+    //     data: data
+    //   });
+    // })
+    // window.addEventListener('pagehide', () =>{
+    //     const end = new Date();
+    //     const diffTime = end - start
+    //     let data={
+    //       Browser: navigator.appName,
+    //       Platform: navigator.platform,
+    //       Location: [position],
+    //       SessionTime:diffTime/1000,
+    //       KeyWords: this.props.keywords,
+    //       ClickedArticles: this.props.cart
+    //   }
+    //   console.log(data)
+    //   axios.post('/api/get/data', {
+    //     data: data
+    //   });
+    // })
+    window.addEventListener('visibilitychange', () =>{
       const end = new Date();
       const diffTime = end - start
-
-
       let data={
+        Browser: navigator.appName,
+        Platform: navigator.platform,
         Location: [position],
         SessionTime:diffTime/1000,
         KeyWords: this.props.keywords,
@@ -78,7 +112,7 @@ class App extends React.Component {
       data: data
     });
   })
-}
+
   render(){
   return (
   <Router>

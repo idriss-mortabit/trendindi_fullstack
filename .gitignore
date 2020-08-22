@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/.scannerwork
 /client/node_modules
 /server/node_modules
 
