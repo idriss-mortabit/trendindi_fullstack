@@ -15,6 +15,8 @@ mongoose.connect(uri, {
         type: Date,
         default: Date.now
     },
+    Browser: String,
+    Platform: String,
     Location: [{
       lat: Number,
       lon: Number
@@ -30,9 +32,9 @@ mongoose.connect(uri, {
   })
   );
 
- async function createVisitor(Location, SessionTime, KeyWords, ClickedArticles) {
+ async function createVisitor(Location, SessionTime, KeyWords, ClickedArticles, Platform, Browser) {
       const Visitor = Visitors({
-        Location, SessionTime, ClickedArticles, KeyWords 
+        Location, SessionTime, KeyWords, ClickedArticles, Platform, Browser
       })
       const result = await Visitor.save();
       console.log(result);

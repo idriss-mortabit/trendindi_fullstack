@@ -96,7 +96,9 @@ class App extends React.Component {
     //     data: data
     //   });
     // })
-    window.addEventListener('visibilitychange', () =>{
+    var isOnIOS = navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPhone/i);
+    var eventName = isOnIOS ? "pagehide" : "visibilitychange";
+    window.addEventListener(eventName, () =>{
       const end = new Date();
       const diffTime = end - start
       let data={
@@ -112,7 +114,7 @@ class App extends React.Component {
       data: data
     });
   })
-
+  }
   render(){
   return (
   <Router>

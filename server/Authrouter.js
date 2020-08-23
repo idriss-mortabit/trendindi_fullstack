@@ -85,7 +85,7 @@ Authrouter.post('/api/get/data', async(req,res) =>{
             })
       })
        
-    createVisitor(data.Location, data.SessionTime, data.KeyWords, data.ClickedArticles)
+    createVisitor(data.Location, data.SessionTime, data.KeyWords, data.ClickedArticles, data.Platform, data.Browser)
 });
 
 // Authrouter.get('/admin/pages-404', function(req, res)
