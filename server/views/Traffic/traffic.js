@@ -58,7 +58,7 @@ async function getVisitors() {
     //   console.log('Saved!');
     // });
     .populate('ClickedArticles', ' Title Category Newspaper Place Clicks -_id')
-    .select('SessionTime KeyWords Location Browser Platform Date -_id')
+    .select('SessionTime KeyWords Location Ipaddress Platform Date -_id')
     console.log(visitors);
     return visitors
 }
