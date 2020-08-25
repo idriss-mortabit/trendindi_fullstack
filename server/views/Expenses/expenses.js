@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const uri = "mongodb+srv://idriss:Va2lG0RNx3nOeCbd@cluster0.l8uax.mongodb.net/trendindi?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://idriss:Va2lG0RNx3nOeCbd@cluster0.l8uax.mongodb.net/trendindi?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dev:ZA2gTldJTz4LrTxq@cluster0.13cbv.mongodb.net/trendindi?retryWrites=true&w=majority";
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true

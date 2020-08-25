@@ -76,6 +76,7 @@ Authrouter.post('/api/get/data', async(req,res) =>{
 //       ClickedArticles.push(article)
 //    }
       let data =  req.body.data
+      console.log(data)
       data.ClickedArticles.map((article)=>{
 
             Articles.findOne({_id: article._id}, async(err, doc)=>{
@@ -85,7 +86,7 @@ Authrouter.post('/api/get/data', async(req,res) =>{
             })
       })
        
-    createVisitor(data.Location, data.SessionTime, data.KeyWords, data.ClickedArticles, data.Platform, data.Browser)
+    createVisitor(data.Platform, data.Device, data.Ipaddress, data.Location, data.SessionTime, data.KeyWords, data.ClickedArticles)
 });
 
 // Authrouter.get('/admin/pages-404', function(req, res)

@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const asc = require('../Articles/schema');
 const { number } = require('joi');
 
-const uri = "mongodb+srv://idriss:Va2lG0RNx3nOeCbd@cluster0.l8uax.mongodb.net/trendindi?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://idriss:Va2lG0RNx3nOeCbd@cluster0.l8uax.mongodb.net/trendindi?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dev:ZA2gTldJTz4LrTxq@cluster0.13cbv.mongodb.net/trendindi?retryWrites=true&w=majority";
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -15,8 +16,9 @@ mongoose.connect(uri, {
         type: Date,
         default: Date.now
     },
-    Browser: String,
     Platform: String,
+    Device: String,
+    Ipaddress: String,
     Location: [{
       lat: Number,
       lon: Number
@@ -32,9 +34,9 @@ mongoose.connect(uri, {
   })
   );
 
- async function createVisitor(Location, SessionTime, KeyWords, ClickedArticles, Platform, Browser) {
+ async function createVisitor(Platform, Device, Ipaddress, Location, SessionTime, KeyWords, ClickedArticles) {
       const Visitor = Visitors({
-        Location, SessionTime, KeyWords, ClickedArticles, Platform, Browser
+         Platform, Device, Ipaddress, Location, SessionTime, KeyWords, ClickedArticles
       })
       const result = await Visitor.save();
       console.log(result);
@@ -56,7 +58,7 @@ async function getVisitors() {
     //   console.log('Saved!');
     // });
     .populate('ClickedArticles', ' Title Category Newspaper Place Clicks -_id')
-    .select('SessionTime KeyWords Location Date -_id')
+    .select('SessionTime KeyWords Location Browser Platform Date -_id')
     console.log(visitors);
     return visitors
 }

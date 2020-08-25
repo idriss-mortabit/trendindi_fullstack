@@ -54,7 +54,10 @@ function Home() {
 
 class App extends React.Component {
 
-  componentDidMount() { 
+  async componentDidMount() { 
+    var ip = await axios.get('https://api.ipify.org').then(res=>{
+    return res.data
+  });
     const start = new Date();
     var position ={lat:0,lon:0}
     navigator.geolocation.getCurrentPosition((p)=>{
@@ -96,20 +99,44 @@ class App extends React.Component {
     //     data: data
     //   });
     // })
-    var isOnIOS = navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPhone/i);
-    var eventName = isOnIOS ? "pagehide" : "visibilitychange";
-    window.addEventListener(eventName, () =>{
+    // var isOnIOS = navigator.userAgent.match(/iPad/i)|| navigator.userAgent.match(/iPhone/i);
+    // var eventName = isOnIOS ? "pagehide" : "visibilitychange";
+    //WORKING onbeforeunload (working on tab close most of time dozesnt work)
+    //WORKING beforeunload (referesh and close tab on desktop and referesh on android only)
+    //WORKING pagehide (referesh and tab close on desktop and referesh on android and
+    // you add new search or url in the bar in iphone )
+    // visibilitychange android works very well close tab change tab
+    if(navigator.userAgent.match(/Android/i)){
+      window.addEventListener('visibilitychange', (e) =>{
+        e.preventDefault();
+        const end = new Date();
+        const diffTime = end - start
+        let data={
+          Ipaddress: ip,
+          Device: navigator.userAgent,
+          Platform: navigator.platform,
+          Location: [position],
+          SessionTime:diffTime/1000,
+          KeyWords: this.props.keywords,
+          ClickedArticles: this.props.cart
+      }
+      axios.post('/api/get/data', {
+        data: data
+      });
+    })
+    }
+    window.addEventListener('pagehide', () =>{
       const end = new Date();
       const diffTime = end - start
       let data={
-        Browser: navigator.appName,
+        Ipaddress: ip,
+        Device: navigator.userAgent,
         Platform: navigator.platform,
         Location: [position],
         SessionTime:diffTime/1000,
         KeyWords: this.props.keywords,
         ClickedArticles: this.props.cart
     }
-    console.log(data)
     axios.post('/api/get/data', {
       data: data
     });
