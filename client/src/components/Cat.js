@@ -95,7 +95,7 @@ class Cat extends React.Component {
 				</div>
             ):(<div style={{marginTop:'350px', height:'700px'}}>
 				     <Helmet>
-						<title>TrendIndi - {this.props.match.params.category}</title>
+						<title style={{textTransform: "capitalize"}}>TrendIndi - {this.props.match.params.category.charAt(0).toUpperCase() + this.props.match.params.category.slice(1)}</title>
 						<meta name="description" content="Trending News: Latest Trending in India, Politics, Business, Lifestyle, Stories, Celebs... Buzz, Hot on Social Media, What is Trending in the World, India News, World Trending News, Trending on Social Media." />
 					</Helmet>
 					<center><CircularProgress disableShrink /></center></div>)
